@@ -5,6 +5,11 @@ import * as Yup from 'yup';
 class Registration extends React.Component {
     render() {
         return (
+            <div>form</div>
+   /*
+   
+   TEMPLATE FROM DOCUMENTATION - to rewrite
+   
             <Formik
                 initialValues={{
                     firstName: '',
@@ -65,6 +70,7 @@ class Registration extends React.Component {
                     </Form>
                 )}
             />
+            */
         )
     }
 }
