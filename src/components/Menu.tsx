@@ -11,17 +11,6 @@ export default function Menu() {
 
  const [money, setMoney] = useState(1000);
 
-/*  local storage throws an error 
-
- useEffect(() => {
-    setMoney(JSON.parse(window.localStorage.getItem('money')));
-  }, []);
-
-  useEffect(() => {
-    window.localStorage.setItem('money', money);
-  }, [money]);
-
-*/
 
  function withdrawTwenty() {
     window.confirm('Are you sure you wish to withdraw 20 $?') 
