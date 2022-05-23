@@ -7,7 +7,7 @@ interface MainMenu {
 }
 
 
-export const Menu =() => {
+const Menu =() => {
 
  const [money, setMoney] = useState(1000);
 
@@ -58,3 +58,4 @@ export const Menu =() => {
   )
 }
 
+export default Menu
