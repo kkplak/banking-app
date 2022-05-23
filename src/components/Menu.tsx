@@ -7,11 +7,11 @@ interface MainMenu {
 }
 
 
-export default function Menu() {
+export const Menu =() => {
 
  const [money, setMoney] = useState(1000);
 
-/*  local storage throws an error 
+
 
  useEffect(() => {
     setMoney(JSON.parse(window.localStorage.getItem('money')));
@@ -21,7 +21,7 @@ export default function Menu() {
     window.localStorage.setItem('money', money);
   }, [money]);
 
-*/
+
  function withdrawTwenty() {
     window.confirm('Are you sure you wish to withdraw 20 $?') 
     setMoney(prevTotal =>  prevTotal- 20)};
